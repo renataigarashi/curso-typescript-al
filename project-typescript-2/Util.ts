@@ -1,5 +1,5 @@
 export class Util {
-  public static randomizar(ini: number, fim: number): number {
-    return ini + Math.random() * (fim - ini);
+  public static randomize(ini: number, fim: number): number {
+    return +(ini + Math.random() * (fim - ini)).toFixed(2);
   }
 }
