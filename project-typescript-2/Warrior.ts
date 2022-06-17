@@ -1,4 +1,4 @@
-import { Character } from "./project-typescript-2/Character";
+import { Character } from "./Character";
 import { Util } from "./Util";
 
 class Warrior extends Character {
